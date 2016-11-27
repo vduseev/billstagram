@@ -5,8 +5,9 @@ import QtQuick.Layouts 1.1
 
 Item {
     id: root
-
     width: getCameraPicWidth()
+
+    signal accept(var photoSource)
 
     Camera {
         id: camera
@@ -80,6 +81,7 @@ Item {
                 text: "Accept"
                 onClicked: {
                     photoPreview.visible = false
+                    accept(photoPreviewImage.source)
                 }
             }
         }

@@ -1,12 +1,17 @@
 import QtQuick 2.7
 import QtQuick.Controls 2.0
 import QtQuick.Layouts 1.0
+import QtQuick.Window 2.0
 
 ApplicationWindow {
+    id: root
     visible: true
     width: 320
     height: 568
     title: qsTr("Billstagram")
+    background: Rectangle {
+        color: "lightgray"
+    }
 
     header: ToolBar {
         ToolButton {
@@ -26,16 +31,29 @@ ApplicationWindow {
     StackView {
         id: stackView
         anchors.fill: parent
-        initialItem: initialComponent
+        initialItem: takePhotoComponent
     }
 
     Component {
-        id: initialComponent
+        id: takePhotoComponent
 
         TakePhoto {
             id: takePhoto
             height: parent.height
-            anchors.centerIn: parent
+            y: 0
+            x: root.width / 2 - width / 2
+
+            onAccept: {
+                stackView.push(editBillComponent, { "billImageSource": photoSource })
+            }
+        }
+    }
+
+    Component {
+        id: editBillComponent
+
+        EditBill {
+            id: editBill
         }
     }
 }
