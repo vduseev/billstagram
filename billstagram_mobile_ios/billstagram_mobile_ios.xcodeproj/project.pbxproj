@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D7FFB51DEB649D0025E53F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7FFB41DEB649D0025E53F /* AppDelegate.swift */; };
+		21D7FFB71DEB649D0025E53F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7FFB61DEB649D0025E53F /* ViewController.swift */; };
+		21D7FFBA1DEB649D0025E53F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7FFB81DEB649D0025E53F /* Main.storyboard */; };
+		21D7FFBC1DEB649D0025E53F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21D7FFBB1DEB649D0025E53F /* Assets.xcassets */; };
+		21D7FFBF1DEB649D0025E53F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21D7FFBD1DEB649D0025E53F /* LaunchScreen.storyboard */; };
+		21D7FFCA1DEB649D0025E53F /* billstagram_mobile_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21D7FFC91DEB649D0025E53F /* billstagram_mobile_iosTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		21D7FFC61DEB649D0025E53F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 21D7FFA91DEB649D0025E53F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 21D7FFB01DEB649D0025E53F;
+			remoteInfo = billstagram_mobile_ios;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		21D7FFB11DEB649D0025E53F /* billstagram_mobile_ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = billstagram_mobile_ios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D7FFB41DEB649D0025E53F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		21D7FFB61DEB649D0025E53F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		21D7FFB91DEB649D0025E53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21D7FFBB1DEB649D0025E53F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21D7FFBE1DEB649D0025E53F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		21D7FFC01DEB649D0025E53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21D7FFC51DEB649D0025E53F /* billstagram_mobile_iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = billstagram_mobile_iosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D7FFC91DEB649D0025E53F /* billstagram_mobile_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = billstagram_mobile_iosTests.swift; sourceTree = "<group>"; };
+		21D7FFCB1DEB649D0025E53F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D7FFAE1DEB649D0025E53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7FFC21DEB649D0025E53F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D7FFA81DEB649D0025E53F = {
+			isa = PBXGroup;
+			children = (
+				21D7FFB31DEB649D0025E53F /* billstagram_mobile_ios */,
+				21D7FFC81DEB649D0025E53F /* billstagram_mobile_iosTests */,
+				21D7FFB21DEB649D0025E53F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21D7FFB21DEB649D0025E53F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D7FFB11DEB649D0025E53F /* billstagram_mobile_ios.app */,
+				21D7FFC51DEB649D0025E53F /* billstagram_mobile_iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D7FFB31DEB649D0025E53F /* billstagram_mobile_ios */ = {
+			isa = PBXGroup;
+			children = (
+				21D7FFB41DEB649D0025E53F /* AppDelegate.swift */,
+				21D7FFB61DEB649D0025E53F /* ViewController.swift */,
+				21D7FFB81DEB649D0025E53F /* Main.storyboard */,
+				21D7FFBB1DEB649D0025E53F /* Assets.xcassets */,
+				21D7FFBD1DEB649D0025E53F /* LaunchScreen.storyboard */,
+				21D7FFC01DEB649D0025E53F /* Info.plist */,
+			);
+			path = billstagram_mobile_ios;
+			sourceTree = "<group>";
+		};
+		21D7FFC81DEB649D0025E53F /* billstagram_mobile_iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				21D7FFC91DEB649D0025E53F /* billstagram_mobile_iosTests.swift */,
+				21D7FFCB1DEB649D0025E53F /* Info.plist */,
+			);
+			path = billstagram_mobile_iosTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D7FFB01DEB649D0025E53F /* billstagram_mobile_ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D7FFCE1DEB649D0025E53F /* Build configuration list for PBXNativeTarget "billstagram_mobile_ios" */;
+			buildPhases = (
+				21D7FFAD1DEB649D0025E53F /* Sources */,
+				21D7FFAE1DEB649D0025E53F /* Frameworks */,
+				21D7FFAF1DEB649D0025E53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = billstagram_mobile_ios;
+			productName = billstagram_mobile_ios;
+			productReference = 21D7FFB11DEB649D0025E53F /* billstagram_mobile_ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		21D7FFC41DEB649D0025E53F /* billstagram_mobile_iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D7FFD11DEB649D0025E53F /* Build configuration list for PBXNativeTarget "billstagram_mobile_iosTests" */;
+			buildPhases = (
+				21D7FFC11DEB649D0025E53F /* Sources */,
+				21D7FFC21DEB649D0025E53F /* Frameworks */,
+				21D7FFC31DEB649D0025E53F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21D7FFC71DEB649D0025E53F /* PBXTargetDependency */,
+			);
+			name = billstagram_mobile_iosTests;
+			productName = billstagram_mobile_iosTests;
+			productReference = 21D7FFC51DEB649D0025E53F /* billstagram_mobile_iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D7FFA91DEB649D0025E53F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Vagiz Duseev";
+				TargetAttributes = {
+					21D7FFB01DEB649D0025E53F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H78MR782X5;
+						ProvisioningStyle = Automatic;
+					};
+					21D7FFC41DEB649D0025E53F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = H78MR782X5;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 21D7FFB01DEB649D0025E53F;
+					};
+				};
+			};
+			buildConfigurationList = 21D7FFAC1DEB649D0025E53F /* Build configuration list for PBXProject "billstagram_mobile_ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21D7FFA81DEB649D0025E53F;
+			productRefGroup = 21D7FFB21DEB649D0025E53F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D7FFB01DEB649D0025E53F /* billstagram_mobile_ios */,
+				21D7FFC41DEB649D0025E53F /* billstagram_mobile_iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D7FFAF1DEB649D0025E53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D7FFBF1DEB649D0025E53F /* LaunchScreen.storyboard in Resources */,
+				21D7FFBC1DEB649D0025E53F /* Assets.xcassets in Resources */,
+				21D7FFBA1DEB649D0025E53F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7FFC31DEB649D0025E53F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D7FFAD1DEB649D0025E53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D7FFB71DEB649D0025E53F /* ViewController.swift in Sources */,
+				21D7FFB51DEB649D0025E53F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		21D7FFC11DEB649D0025E53F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D7FFCA1DEB649D0025E53F /* billstagram_mobile_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21D7FFC71DEB649D0025E53F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 21D7FFB01DEB649D0025E53F /* billstagram_mobile_ios */;
+			targetProxy = 21D7FFC61DEB649D0025E53F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		21D7FFB81DEB649D0025E53F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D7FFB91DEB649D0025E53F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		21D7FFBD1DEB649D0025E53F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D7FFBE1DEB649D0025E53F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D7FFCC1DEB649D0025E53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		21D7FFCD1DEB649D0025E53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21D7FFCF1DEB649D0025E53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H78MR782X5;
+				INFOPLIST_FILE = billstagram_mobile_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duseev.billstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		21D7FFD01DEB649D0025E53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = H78MR782X5;
+				INFOPLIST_FILE = billstagram_mobile_ios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duseev.billstagram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		21D7FFD21DEB649D0025E53F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H78MR782X5;
+				INFOPLIST_FILE = billstagram_mobile_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duseev.billstagram-mobile-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/billstagram_mobile_ios.app/billstagram_mobile_ios";
+			};
+			name = Debug;
+		};
+		21D7FFD31DEB649D0025E53F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = H78MR782X5;
+				INFOPLIST_FILE = billstagram_mobile_iosTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.duseev.billstagram-mobile-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/billstagram_mobile_ios.app/billstagram_mobile_ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D7FFAC1DEB649D0025E53F /* Build configuration list for PBXProject "billstagram_mobile_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D7FFCC1DEB649D0025E53F /* Debug */,
+				21D7FFCD1DEB649D0025E53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D7FFCE1DEB649D0025E53F /* Build configuration list for PBXNativeTarget "billstagram_mobile_ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D7FFCF1DEB649D0025E53F /* Debug */,
+				21D7FFD01DEB649D0025E53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		21D7FFD11DEB649D0025E53F /* Build configuration list for PBXNativeTarget "billstagram_mobile_iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D7FFD21DEB649D0025E53F /* Debug */,
+				21D7FFD31DEB649D0025E53F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D7FFA91DEB649D0025E53F /* Project object */;
+}
