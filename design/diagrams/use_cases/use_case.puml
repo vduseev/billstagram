@@ -1,0 +1,26 @@
+@startuml
+
+'Initiator start'
+:Initiator: -> (Pick Image)
+
+'Invitee start'
+:Invitee: -> (Receive Invitation)
+(Receive Invitation) --> (Pick Image)
+
+'Common flow'
+(Pick Image) -> (Take a Shot) : Camera
+(Pick Image) --> (Choose from library)
+(Take a Shot) -> (Preview)
+(Choose from library) --> (Preview)
+(Share Bill) <.. (Preview) : Initiator
+''(Preview) ..> (Share Bill) : Initiator
+(Preview) .> (Edit Bill) : Invitee\ngoes dierctly
+(Preview) .> (Pick Image) : Discard
+
+
+
+newpage
+
+''(Share Bill) ->
+
+@enduml
