@@ -412,6 +412,7 @@
 				21D7FFD01DEB649D0025E53F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		21D7FFD11DEB649D0025E53F /* Build configuration list for PBXNativeTarget "billstagram_mobile_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +421,7 @@
 				21D7FFD31DEB649D0025E53F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
