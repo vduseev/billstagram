@@ -3,10 +3,6 @@
 'Initiator start'
 :Initiator: -> (Pick Image)
 
-'Invitee start'
-:Invitee: -> (Receive Invitation)
-(Receive Invitation) --> (Pick Image)
-
 'Common flow'
 (Pick Image) -> (Take a Shot) : Camera
 (Pick Image) --> (Choose from library)
@@ -14,10 +10,18 @@
 (Choose from library) --> (Preview)
 (Share Bill) <.. (Preview) : Initiator
 ''(Preview) ..> (Share Bill) : Initiator
-(Preview) .> (Edit Bill) : Invitee\ngoes dierctly
+(Preview) .> (Edit Bill) : Invitee\ngoes directly
 (Preview) .> (Pick Image) : Discard
 
+'Share bill Screen'
+''(Share Bill) <-> (Describe Bill)
+''(Share Bill) <-> (Add Geo Tag)
+''(Share Bill) <- (Share Bill) : Choose\ninvitees
+:Invitee: <- (Share Bill) : Invite
 
+'Invitee start'
+:Invitee: -> (Receive Invitation)
+(Receive Invitation) --> (Edit Bill)
 
 newpage
 
