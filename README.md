@@ -13,14 +13,14 @@ the whole company.
         <td rowspan="2">
             <b>Usual Scenario 1</b>
             </br>
-            Someone pays, then splits
+            Someone pays, then splits amongst others
         </td>
         <td>
             <b>Use Case:</b>
             <ul>
-                <li>Someone pays the whole amount</li>
-                <li>Takes the receipt</li>
-                <li>Later tells everyone how much they owe</li>
+                <li>Someone pays the whole amount.</li>
+                <li>Takes the receipt.</li>
+                <li>Later tells everyone how much they owe<./li>
             </ul>
         </td>
     </tr>
@@ -28,8 +28,9 @@ the whole company.
         <td>
             <b>Problems:</b>
             <ul>
-                <li>There is always someone not trusting the numbers and
-                asking for a photo or the actual receipt for a proof</li>
+                <li>There are always people not trusting the judgment of
+                the person with the receipt and asking for a photo of
+                the receipt or for the receipt itself as a proof.</li>
             </ul>
         </td>
     </tr>
@@ -41,7 +42,7 @@ the whole company.
         </td>
         <td>
             <b>Use Case:</b>
-            <ul><li>Someone pays the whole amount. End of the story</li></ul>
+            <ul><li>Someone pays the whole amount. End of story.</li></ul>
         </td>
     </tr>
     <tr>
@@ -49,7 +50,7 @@ the whole company.
             <b>Problems:</b>
             <ul>
                 <li>Usually, later someone asks for the photo of the receipt
-                anyway.</li>
+                anyway, willing to repay their share no matter what.</li>
             </ul>
         </td>
     </tr>
@@ -64,11 +65,11 @@ the whole company.
             <ul>
                 <li>The whole squad starts to tear apart the receipt in an
                 attempt to see what portion of the receipt has to be covered
-                by them</li>
+                by them.</li>
                 <li>Either everyone takes turns looking at the receipt and
-                calculating the share</li>
+                calculating the share.</li>
                 <li>Or an individual copy of the receipt has to be sent
-                to each group member</li>
+                to each group member.</li>
             </ul>
         </td>
     </tr>
@@ -76,8 +77,9 @@ the whole company.
         <td>
             <b>Problems:</b>
             <ul>
-                <li>Useless waste of time. Instead of paying and leaving, people
-                argue about concrete numbers they owe each other.</li>
+                <li>Useless waste of time. Instead of paying and leaving,
+                people argue about concrete numbers they owe to
+                each other.</li>
                 <li>Everyone wants a copy of the receipt to confirm
                 the numbers.</li>
             </ul>
