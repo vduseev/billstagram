@@ -20,7 +20,7 @@ the whole company.
             <ul>
                 <li>Someone pays the whole amount.</li>
                 <li>Takes the receipt.</li>
-                <li>Later tells everyone how much they owe<./li>
+                <li>Later tells everyone how much they owe.</li>
             </ul>
         </td>
     </tr>
