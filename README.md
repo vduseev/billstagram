@@ -4,37 +4,88 @@ A bill splitting App
 ![Starting Screen Prototype](https://image.ibb.co/bGPoBR/billstragram_feed.png)
 
 ## Root of the problem
-After an evening in a bar a waiter bring you a single receipt for
+After an evening in a bar a waiter brings you a single receipt for
 the whole company.
 
-### Usual Scenario 1:
-* Someone pays the whole amount
-* Takes the receipt
-* Later tells everyone how much they owe
+<table width="100%">
+    <tr><th>Scenario ID</th><th>Scenario Details</th><tr>
+    <tr>
+        <td rowspan="2">
+            <b>Usual Scenario 1</b>
+            </br>
+            Someone pays, then splits
+        </td>
+        <td>
+            <b>Use Case:</b>
+            <ul>
+                <li>Someone pays the whole amount</li>
+                <li>Takes the receipt</li>
+                <li>Later tells everyone how much they owe</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Problems:</b>
+            <ul>
+                <li>There is always someone not trusting the numbers and
+                asking for a photo or the actual receipt for a proof</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">
+            <b>Usual Scenario 2</b>
+            </br>
+            Someone pays for everything
+        </td>
+        <td>
+            <b>Use Case:</b>
+            <ul><li>Someone pays the whole amount. End of the story</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Problems:</b>
+            <ul>
+                <li>Usually, later someone asks for the photo of the receipt
+                anyway.</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td rowspan="2">
+            <b>Usual Scenario 3</b>
+            </br>
+            Everyone pays for himself
+        </td>
+        <td>
+            <b>Use Case:</b>
+            <ul>
+                <li>The whole squad starts to tear apart the receipt in an
+                attempt to see what portion of the receipt has to be covered
+                by them</li>
+                <li>Either everyone takes turns looking at the receipt and
+                calculating the share</li>
+                <li>Or an individual copy of the receipt has to be sent
+                to each group member</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Problems:</b>
+            <ul>
+                <li>Useless waste of time. Instead of paying and leaving, people
+                argue about concrete numbers they owe each other.</li>
+                <li>Everyone wants a copy of the receipt to confirm
+                the numbers.</li>
+            </ul>
+        </td>
+    </tr>
+</table>
 
-***Common problems in Usual Scenario 1:***
-* There is always someone not trusting the numbers and asking for a photo or
-  the actual receipt for a proof
-
-### Usual Scenario 2:
-* Someone pays the whole amount. End of the story
-
-***Common problems in Usual Scenario 2:***
-* Usually, later someone asks for the photo of the receipt anyway.
-
-### Usual Scenario 3:
-* The whole squad starts to tear apart the receipt in an attempt to
-  see what portion of the receipt has to be covered by them
-* Either everyone takes turns looking at the receipt and calculating the
-  share
-* Or an individual copy of the receipt has to be sent to each group member
-
-***Common problems in Usual Scenario 3:***
-* Useless waste of time. Instead of paying and leaving, people argue about
-  concrete numbers they owe each other.
-* Everyone wants a copy of the receipt to confirm the numbers.
-
-## Envisioned Scenario
+## Envisioned Scenario with the App
 * Waiter brings a receipt
 * Open the app and authenticate
 * Take a photo of the receipt
