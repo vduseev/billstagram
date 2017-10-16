@@ -113,7 +113,9 @@ the whole company.
       Other members, who have this person in contacts, can share the receipt
       with this person
 * **STEP 4:** Highlight a position you have to pay for
-    * **STEP 5:** Specify a price of the item (0 by default)
+    * **STEP 5:** Specify a price of the item
+        * 0 by default if no one specified the price yet, otherwise, known
+          price is displayed
         * Other members see the price you assigned in real time
         * App displays a warning for everyone if the price for the same item
           is different for 2 or more users
