@@ -89,8 +89,9 @@ the whole company.
 
 ## Envisioned Scenario with the App
 * Waiter brings a receipt
-* Open the app and authenticate
-* Take a photo of the receipt
+* **STEP 1:** Open the app
+* Authenticate
+* **STEP 2:** Take a photo of the receipt
     * App will ask if the photo is OK. And will suggest to delete it
       and retake.
 * Specify the currency of the receipt (can be skipped)
@@ -104,15 +105,15 @@ the whole company.
     * (2.0) App guesses the place based on Location Services
 * App assigns current date and time to the receipt
     * It is possibly to modify it by clicking on date and time label
-* Immediately share the receipt with people from contacts
+* **STEP 3:** Immediately share the receipt with people from contacts
     * Everyone receives an SMS (if user does not have the app installed)
       or a push notification about new receipt (if the app is installed)
     * Every added member is assigned a random distinct color for highlight
     * (2.0) Add a member who is not in your contacts.
       Other members, who have this person in contacts, can share the receipt
       with this person
-* Highlight a position you have to pay for
-    * Specify a price of the item (0 by default)
+* **STEP 4:** Highlight a position you have to pay for
+    * **STEP 5:** Specify a price of the item (0 by default)
         * Other members see the price you assigned in real time
         * App displays a warning for everyone if the price for the same item
           is different for 2 or more users
@@ -126,8 +127,10 @@ the whole company.
     * Everyone sees results of your highlight in real time
         * Items highlighted by 2 or more users use a special color palette
           indicating that this item is shared between multiple users
-* The total amount of your share of the bill is displayed alongside
-  of your name.
+    * **STEP 6:** Review results of calculation for the position.
+      Hit OK or BACK
+* **STEP 7:** The total amount of your share of the bill is displayed alongside
+  your name.
     * Total amount calculated by all users is displayed in receipt view
     * Total amount calculated by all users is displayed in receipt feed view
 * Write a comment about the receipt
